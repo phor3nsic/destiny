@@ -47,10 +47,10 @@ def printResult(ips):
 			print(f"- {hosts}")
 
 def main():
+	print(banner)
 	hostnames = sys.stdin
 	ips = run(hostnames)
 	printResult(ips)
 	
 if __name__ == '__main__':
-	print(banner)
 	main()
