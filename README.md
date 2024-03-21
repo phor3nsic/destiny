@@ -4,9 +4,7 @@
 
 > Install
 ```
-git clone https://github.com/phor3nsic/Destiny.git \
-&& cd Destiny \
-&& python3 setup.py install
+pipx install git+https://github.com/phor3nsic/Destiny
 ```
 
 > Simple Run
