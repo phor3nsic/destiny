@@ -1,4 +1,4 @@
-# <p align="center" width="50px" heigth="50px">![](img/banner.png)</p>
+# <p align="center" width="15px" heigth="15px">![](img/banner.png)</p>
 
 ## Install
 
