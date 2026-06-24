@@ -15,6 +15,13 @@
   </a>
 </p>
 
+About 🔮
+----------
+
+`destiny` reads a list of hostnames from stdin, resolves each one to its IP
+address (A record), and groups the hosts by the IP they point to. It's handy
+during recon for spotting which subdomains share infrastructure.
+
 Install 📡
 ----------
 
@@ -27,7 +34,7 @@ pipx install git+https://github.com/phor3nsic/destiny
 ```sh
 git clone https://github.com/phor3nsic/destiny \
 && cd destiny \
-pip install .
+&& pip install .
 ```
 
 Examples 💡
